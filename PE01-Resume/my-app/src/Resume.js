@@ -20,7 +20,7 @@ const Resume = () => {
           <p>GPA: 6.8/10</p>
         </div>
       </section>
-	  <section className="section">
+	  <section className="section">  //Technical skills section
         <h2>Technical Skills</h2>
         <div className="technical-skills">
             <p>Cloud Platforms: AWS, GCP, AZURE</p>
@@ -31,7 +31,7 @@ const Resume = () => {
             <p>CI/CD Tools: Jenkins, Argo CD and Gitlab</p>
         </div>
       </section>
-	  <section className="section">
+	  <section className="section">  // work experience section 
         <h2>Work Experience</h2>
         <div className="experience">
           <h3>Cloud Devops Engineer 1</h3>
@@ -45,7 +45,7 @@ const Resume = () => {
           <p>Administration of Linux and Windows servers.</p>
         </div>
       </section>
-      <section className="section">
+      <section className="section">  //projects section
         <h2>Projects</h2>
         <div className="projects">
         <h3>Application Deployment</h3>
@@ -53,7 +53,7 @@ const Resume = () => {
 		    <p>
       Git Link:{" "}
       <a
-        href="https://github.com/Akarshl/Assignment.git"
+        href="https://github.com/Akarshl/Assignment.git"  //added git link
         target="_blank"
         rel="noopener noreferrer"
       >
