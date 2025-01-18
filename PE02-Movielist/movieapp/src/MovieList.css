@@ -1,0 +1,32 @@
+.movie-list {
+    font-family: Arial, sans-serif; /* style */
+    text-align: center;
+  }
+  select {
+    margin: 8px 0;
+    padding: 6px; /* size of the Genres box */
+    font-size: 15px;
+  }
+  .movies {     /* Specifications for movies */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 12px;
+  }
+  .movie-card {
+    border: 1px solid #ddd;
+    padding: 12px;
+    width: 250px;
+    text-align: left;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+  }
+  .movie-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  h1 {
+    color:#333; /* header color black */
+  }
+  
