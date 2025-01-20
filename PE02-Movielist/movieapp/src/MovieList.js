@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./MovieList.css";
 
-//function to reterive mvie data
-function MovieList() { 
+function MovieList() {   //function to reterive movie data
   function getMovies() {
     return [
       { title: "Kirathaka", genre: "Comedy", releaseYear: 2011 },
@@ -11,13 +10,11 @@ function MovieList() {
     ];
   }
   const [currentGenre, setCurrentGenre] = useState("All Genres");
-  // function to retrieve unique movie categories
-  function getGenres() { 
+  function getGenres() {  // function to retrieve unique movie categories
     const movies = getMovies();
     return ["All Genres", ...new Set(movies.map((movie) => movie.genre))];
   }
-  // Function to filter movies based on the selected category
-  function getFilteredMovies() {
+  function getFilteredMovies() { // Function to filter movies based on the selected category
     const movies = getMovies();
     if (currentGenre == "All Genres") {
       return movies;
