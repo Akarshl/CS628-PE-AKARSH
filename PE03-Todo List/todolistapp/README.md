@@ -1,3 +1,5 @@
 The To-Do List application accepts user input through a input field. Users can type a task description into this field and then click the add task button to save the task. Each task is stored in a state variable using Reacts useState hook. The input field ensures that empty or whitespace-only tasks are not added to the list.
+
 The application maintains a list of tasks using the tasks state variable. When a user adds a task, it is appended to the list, and the state updates, causing a re-render of the component. The application also includes a delete function, which filters out the selected task based on its index. The displayTasks function dynamically generates task elements, ensuring that the user sees an updated list whenever a task is added or removed.
+
 The output of the program is a structured list of tasks displayed in the user interface. Each task is presented within a container alongside a delete button. When the delete button is clicked, the corresponding task is removed from the list, and the display updates accordingly. This interactive process allows users to efficiently manage their task list in a simple manner.
