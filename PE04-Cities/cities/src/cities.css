@@ -4,15 +4,15 @@ body {
     margin: 0;
     padding: 0;
 }
-h1 {
-    background-color: #333;
+h1 {   /*styling for the main heading*/
+    background-color: #333;  
     color: white;
     text-align: center;
     padding: 15px;
     margin: 0;
 }
 nav {
-    background-color: #333;
+    background-color: #333; /*Addcity and city list styling*/
     padding: 10px;
     text-align: center;
 }
@@ -39,7 +39,7 @@ a {
     font-size: 20px;
     text-decoration: underline;
 }
-form {
+form { /*styling for input data*/
     width: 400px;
     height: auto;
     background: white;
@@ -60,7 +60,7 @@ input {
     border: 1px solid black;
     border-radius: 3px;
 }
-button {
+button { /*Button styling*/
     background-color: blue;
     color: white;
     border: none;
