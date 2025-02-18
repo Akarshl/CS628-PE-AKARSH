@@ -1,0 +1,5 @@
+The program takes user input as a predefined list of cities stored in the cities state, the user input from the add city provides a city's name, country and population.
+
+The program is built using react router to manage navigation between pages, cities list displays a list of available cities and provides links to view details. Citydetails Retrieves the selected city’s details using the useParams() hook and displays the city’s name, country, and population. Add city Allows users to input new city details. Upon form submission, the city is added to the cities state, and the page navigates to the cities list.
+
+The application provides a list of cities with clickable links along with the detailed information about a selected city, Add city provides option to enter new city details which updates the cities list dynamically after submission.

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+div {
+    text-align: center;
+    margin-top: 10px;
+}
+h2 {
+    color: #333;
+}
+div > div {
+    margin: 10px 0;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    text-decoration: underline;
+}
+form {
+    width: 400px;
+    height: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+}
+p {
+    font-size: 18px;
+    color: #333;
+}
