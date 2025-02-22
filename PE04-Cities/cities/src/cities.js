@@ -49,6 +49,7 @@ function AddCity({ cities, setCities }) { // function to add a new city
     return (
         <div>
         <h2>Add City</h2>
+        <div>
         <label>Name:</label>
         <input value={name} onChange={(event) => setName(event.target.value)} required />
         <br/>
