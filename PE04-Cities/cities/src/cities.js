@@ -49,18 +49,17 @@ function AddCity({ cities, setCities }) { // function to add a new city
     return (
         <div>
         <h2>Add City</h2>
-        <form onSubmit={handleSubmit}>
         <label>Name:</label>
-        <input value={name} onChange={function(event) { setName(event.target.value); }} required />
+        <input value={name} onChange={(event) => setName(event.target.value)} required />
         <br/>
         <label>Country:</label>
-        <input value={country} onChange={function(event) { setCountry(event.target.value); }} required />
+        <input value={country} onChange={(event) => setCountry(event.target.value)} required />
         <br/>
         <label>Population:</label>
-        <input  value={population} onChange={function(event) { setPopulation(event.target.value); }} required />
+        <input value={population} onChange={(event) => setPopulation(event.target.value)} required />
         <br/>
-        <button type="submit">Add City</button>
-        </form>
+        <button onClick={handleSubmit}>Add City</button>
+        </div>
         </div>
     );
 }
