@@ -47,7 +47,6 @@ label {
     font-weight: bold;
     margin-top: 8px;
 }
-
 input, textarea {
     width: 30%;
     padding: 6px;
@@ -56,7 +55,6 @@ input, textarea {
     border-radius: 3px;
     font-size: 14px;
 }
-
 input {
     width: 30%;
     padding: 6px;
@@ -65,7 +63,6 @@ input {
     border-radius: 3px;
     font-size: 14px;
 }
-
 button { /* Button styling */
     background-color: #d97706;
     color: white;
