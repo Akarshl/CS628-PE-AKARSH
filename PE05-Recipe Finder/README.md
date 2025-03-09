@@ -1,0 +1,5 @@
+The program takes user input as a predefined list of recipes stored in the recipes state. The user input from the add recipe form provides a recipe's name, ingredients, and instructions.
+
+The program is built using React Router to manage navigation between pages. The recipe list displays a list of available recipes and provides links to view details. RecipeDetails retrieves the selected recipe’s details using the useParams() hook and displays the recipe’s name, ingredients, and instructions. EditRecipe allows users to update existing recipe details, and AddRecipe enables users to input new recipes. on submission, the recipe is added to the recipes state, and the page navigates to the recipe list.
+
+The application provides a list of recipes with clickable links along with detailed information about a selected recipe. AddRecipe provides an option to enter new recipe details, which updates the recipe list dynamically after submission.
